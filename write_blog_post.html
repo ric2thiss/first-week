@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_blog_post.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f4ebee46c2.js" crossorigin="anonymous"></script>
+    <meta name="keywords" content="InKODEnito Web Develoeprs" />
+    <meta name="description" content="For Web development class/training." />
+    <title>Write a Blog Post</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="logo.svg" class="logo" alt="Logo of the website"></a>
+            <ul>
+                <li><a href="home.html" class="next"><i class="fa-solid fa-house-user"></i> Home</a></li>
+                <li><a href="write_blog_post.html" class="active"><i class="fa-brands fa-microblog"></i> Write a Blog Posts</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <section class="section1">
+            <h1>Write a Blog Post</h1>
+            <form action="submit.html">
+                <table>
+                    <tr>
+                        <td><label for="blog-title">Blog Post Title</label></td>
+                        <td><input type="text" name="blog-title" id="blog-title" placeholder="Enter your title.." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="photo-file">Upload Photo</label></td>
+                        <td><input type="file" name="photo-file" id="photo-file" accept=".jpg" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="blog-content">Blog Post Content</label></td>
+                        <td><textarea name="blog-content" id="blog-content" cols="30" rows="10" placeholder="Content goes here..." required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="submit" id="submit" value="Create Post"></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3 style="font-size: 25px;">Contact Us</h3>
+        <p><a href="mailto:badadjd4@gmail.com" class="email-support">help@support.com</a></p>
+        <a href="#" class="email-support"><i class="fa-brands fa-square-facebook"></i></a> | 
+        <a href="#" class="email-support"><i class="fa-solid fa-envelope"></i></a> | 
+        <a href="" class="email-support"><i class="fa-brands fa-google"></i></a>
+        <img src="footer-logo.svg" alt="" height="30px" width="100%">
+        <p>&copy; All rights reserved.</p>
+    </footer>
+</body>
+</html>

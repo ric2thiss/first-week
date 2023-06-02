@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    margin: 0;
+    margin-bottom: 0;
+    background-color: #efefef;
+}
+/* Header with Navigation Link and Logo*/
+nav{
+    background-color: #36374B;
+    padding: 0 80px;
+    height: 85px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+}
+a.active{
+    background: black;
+}
+a.next:hover{
+    background: black;
+    transition: .5s;
+}
+
+/* Main content and each sections of the articles*/
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 6%;
+}
+section{
+    overflow: auto;
+}
+.p-more{
+    color: #000;
+    display: flex;
+    width: 12%;
+    height: 2rem;
+    padding: 7px;
+}
+.p-more:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .8s;
+    height: 4rem;
+    padding-left: 30px;
+    padding-top: 25px;
+    width: 16%;
+
+}
+.img1{
+    float: left;
+    margin-right: 15px;
+}
+
+article{
+    flex-basis: 68%;
+}
+
+/*Aside section after the main content*/
+aside{
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 9px;
+    height: auto;
+}
+.events-article{
+    padding-top: 8px;
+    padding-bottom: 35px;
+}
+.border{
+    border-top: 5px solid #36374B;
+    padding-bottom: 13px;
+    padding-top: 2px;
+}
+
+#search-bar{
+    padding: 5px;
+    width: 50%;
+    border: none;
+}
+#search-bar:hover{
+    border: 2px solid #36374B;
+    border-radius: 16px;
+    padding: 8px;
+    width: 75%;
+    transition: .9s;
+}
+.search-button{
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.search-button:hover{
+    border: 2px solid #36374B;
+    color: #fff;
+    background-color: black;
+    transition: .9s;
+}
+#events-icon:hover{
+    background-color: #fff;
+    color: red;
+    transition: .5s;
+}
+.ads-clip{
+    border: 3px solid rgb(190, 23, 23);
+}
+.ads{
+    margin-bottom: 60px;
+}
+.profile{
+    border-radius: 50%;
+    width: 40px;
+}
+.each-name{
+    margin-top: -38px;
+}
+.hover-profile:hover{
+    background-color: #efefef;
+    height: 60px;
+    padding-top: 13px;
+    border-radius: 25px;
+    transition: .3s;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer*/
+footer{
+    display: block;
+    color: #36374B;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}
+
+
+
